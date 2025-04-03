@@ -6,14 +6,19 @@ import logo from "../../../src/assets/Logo1.png";  // Correct path
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo-container">
-        <img src={logo} alt="Company Logo" className="logo" />
+    <div className="navbar-container"></div>
+      
+      <ul className="nav-links left-links">
+        <li className="me-5 ho" ><a  href="#Home">Home</a></li>
+        <li className="me-5 ho" ><a href="#Services">Services</a></li>
+        <li className="me-5 ho" ><a href="#Events">Events</a></li>
+       </ul>
+        <div className="logo-container">
+        <img src={logo} alt="Indore Sound & Light Logo" className="logo" />
       </div>
-      <ul className="nav-links me-5">
-        <li className="me-5 ho" ><a  href="#home">Home</a></li>
-        <li className="me-5 ho" ><a href="#services">Services</a></li>
-        <li className="me-5 ho" ><a href="#about">About</a></li>
-        <li className="me-5 ho" ><a href="#contact">Contact</a></li>
+      <ul className="nav-links left-links">
+        <li className="me-5 ho" ><a href="#Equipment">Equipment</a></li>
+        <li className="me-5 ho" ><a href="#Contact">Contact</a></li>
       </ul>
     </nav>
   );
