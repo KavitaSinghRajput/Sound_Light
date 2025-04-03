@@ -5,6 +5,8 @@ function App() {
   return (
     <div>
       <Navbar />
+
+      
       <h1>Welcome to Sound & Light</h1>
     </div>
   );
